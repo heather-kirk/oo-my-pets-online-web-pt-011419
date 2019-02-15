@@ -60,6 +60,6 @@ def self.sell_pets
     owners_pets.collect do |pet|
       pet.mood = "nervous"
   end 
-end 
+
 
 end 
