@@ -14,14 +14,15 @@ class Owner
    @@count +=1 
  end 
  
- def species=(species)
-   @species = species 
 
- end 
- 
+def  say_species
+  
+end 
  
  def all 
    @@all 
  end 
+ 
+ 
  
 end
