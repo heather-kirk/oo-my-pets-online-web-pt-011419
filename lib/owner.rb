@@ -55,7 +55,9 @@ def feed_fish
 end 
 
 def sell_pets
-  pets.each {|type, pet| pet.mood = "nervous"}
+  pets.each do {key, type} 
+    type.each do |pet|
+      pet.mood = "nervous"
   end 
 end 
 end 
