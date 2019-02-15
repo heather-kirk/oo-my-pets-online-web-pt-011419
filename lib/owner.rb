@@ -43,7 +43,7 @@ def buy_dog(name)
   pets[:dogs] << dog
 end
 
-def walk_dogs
+def walk_dogs(dog)
   dog.mood = "happy"
 end 
 end 
