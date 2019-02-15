@@ -20,7 +20,7 @@ def self.reset_all
 end 
 
 def self.count
-  @@count +=1 
+  self.all.count += 1 
 end 
 
 def say_species
