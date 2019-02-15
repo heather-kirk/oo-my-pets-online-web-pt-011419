@@ -59,6 +59,6 @@ def sell_pets
  #   owners_pets. do |pet|
   #    pet.mood = "nervous"
  # end 
-end 
+#end 
 
 end 
