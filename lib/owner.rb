@@ -44,18 +44,18 @@ def buy_dog(name)
 end
 
 def walk_dogs
- @pets[:dog].each{|dog| dog.mood = "happy" }
+ pets[:dog].each{|dog| dog.mood = "happy" }
 end
 
 def play_with_cats 
-  @pets[:cats].each{|cat| cat.mood = "happy"}
+  pets[:cats].each{|cat| cat.mood = "happy"}
   
 def feed_fish
-  @pets[:fish].each{|fish| fish.mood = "happy"}
+  pets[:fish].each{|fish| fish.mood = "happy"}
 end 
 
 def sell_pets
-  @pets.each {|pet| pet.mood = "nervous"}
+  pets.each {|pet| pet.mood = "nervous"}
 end 
 end 
 end 
