@@ -55,10 +55,10 @@ def feed_fish
 end 
 
 def sell_pets
-#  @pets.each do |type, owners_pets| 
- #   owners_pets. do |pet|
-  #    pet.mood = "nervous"
- # end 
-#end 
+  @pets.each do |type, owners_pets| 
+    owners_pets. do |pet|
+      pet.mood = "nervous"
+  end 
+end 
 
 end 
