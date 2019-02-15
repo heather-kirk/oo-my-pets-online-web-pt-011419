@@ -59,5 +59,6 @@ def self.sell_pets
   @pets.each do |type, owners_pets| 
 end 
 
-
+def list_pets 
+  "I have "
 end 
