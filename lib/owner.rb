@@ -57,5 +57,7 @@ end
 
 
 def list_pets 
-  "I have #{pets[:fishes].count, pets[:cats].count, and pets[:dogs].count."
+  "I have #{pets[:fishes].count, pets[:cats].count, and pets[:dogs].count}."
+end 
+
 end 
